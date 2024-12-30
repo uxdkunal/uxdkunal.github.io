@@ -9,6 +9,40 @@ body {
     color: #fff;
 }
 
+#home {
+    background: url('./images/banner.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+#home .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#home .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+#home .hero .btn {
+    background-color: #6c63ff;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#home .hero .btn:hover {
+    background-color: #5548c8;
+}
+
 header {
     background-color: #111;
     padding: 1rem 2rem;
